@@ -9,17 +9,28 @@
   scroll-behavior: smooth;
 }
 
+/* DESKTOP-VIEW */
 header {
   background-color: white;
   font-family: 'Roboto';
 }
 
+#navbar {
+  background-color: white;
+}
+
+#logo {
+  margin-bottom: 5px;
+}
+
 .navbar-nav {
-  margin-left: 120px;
+  margin-left: 20px;
 }
 
 .nav-item > .nav-link {
   color: #CBB279;
+  padding: 10px;
+  letter-spacing: 1px;
 }
 
 #d-flex {
@@ -40,10 +51,11 @@ header {
   padding: 6px;
   border-radius: 50px;
   outline: none;
+
 }
 
 .close-btn {
   position: absolute;
   top: 54px;
-  right: 160px;
+  right: 200px;
 }
