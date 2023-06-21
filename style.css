@@ -24,7 +24,7 @@ header {
 }
 
 .navbar-nav {
-  margin-left: 20px;
+  margin-left: 150px;
 }
 
 .nav-item > .nav-link {
@@ -34,7 +34,7 @@ header {
 }
 
 #d-flex {
-  margin-right: 100px;
+  margin-right: 90px;
   margin-top: 15px;
   width: 300px;
   border-radius: 50px;
@@ -51,11 +51,11 @@ header {
   padding: 6px;
   border-radius: 50px;
   outline: none;
-
+  margin-top: 10px;
 }
 
 .close-btn {
   position: absolute;
-  top: 54px;
-  right: 200px;
+  margin-top: 150px;
+  right: 150px;
 }
