@@ -26,4 +26,24 @@ header {
   margin-right: 100px;
   margin-top: 15px;
   width: 300px;
+  border-radius: 50px;
+}
+
+.container {
+  position: relative;
+  padding: 20px 50px;
+}
+
+.input {
+  width: 200px;
+  background: transparent;
+  padding: 6px;
+  border-radius: 50px;
+  outline: none;
+}
+
+.close-btn {
+  position: absolute;
+  top: 54px;
+  right: 160px;
 }
