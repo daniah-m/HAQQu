@@ -43,8 +43,9 @@ header {
   color: #CBB279;
 }
 
-.quote {
-  font-family: 'IM Fell Great Primer';
+.dropdown-item:hover {
+  background-color: #CBB279;
+  color: black;
 }
 
 button {
