@@ -73,3 +73,9 @@ header {
   backdrop-filter: blur(5px);
   border: 1px solid #cccccc;
 }
+
+footer {
+  background-color: white;
+  font-family: 'Roboto';
+  color: white
+}
