@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 * {
   margin: 0;
@@ -14,6 +13,7 @@
 header {
   background-color: white;
   font-family: 'Roboto';
+  font-weight: bolder;
 }
 
 #logo {
@@ -48,20 +48,34 @@ button {
   color: white;
 }
 
+.btn-primary {
+  background-color: #CBB279;
+  border-color: #CBB279;
+}
+
+.btn-primary:hover {
+  background-color: #E1D4BB;
+  border-color: #E1D4BB;
+  color: black;
+}
+
 footer {
   background-color: white;
   font-family: 'Roboto';
-  color: white
+  font-weight: bolder;
+  color: black;
+}
+
+.title-bold {
+  font-weight: bolder;
 }
 
 .list-font {
-  font-weight: lighter;
-  color: white;
+  color: black;
   text-decoration: none;
-  color: white;
 }
 
-a:link {
+.lnk {
   text-decoration: none;
-  color: white;
+  color: black;
 }
