@@ -34,6 +34,10 @@ header {
   letter-spacing: 1px;
 }
 
+.nav-link:hover {
+  color: black;
+}
+
 .dropdown-item {
   color: #CBB279;
 }
@@ -46,6 +50,12 @@ button {
 
 .btn {
   color: white;
+}
+
+.btn:hover {
+  background-color: #90afc7;
+  color: black;
+  border-radius: 20px;
 }
 
 .btn-primary {
@@ -78,4 +88,8 @@ footer {
 .lnk {
   text-decoration: none;
   color: black;
+}
+
+.lnk:hover {
+  color: white;
 }
