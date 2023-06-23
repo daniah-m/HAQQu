@@ -24,9 +24,9 @@ header {
   background-color: white;
 }
 
-.navbar-nav {
+/* .navbar-nav {
   margin-left: 150px;
-}
+} */
 
 .nav-item > .nav-link {
   color: #CBB279;
@@ -34,45 +34,18 @@ header {
   letter-spacing: 1px;
 }
 
-#d-flex {
-  margin-right: 90px;
-  margin-top: 15px;
-  width: 300px;
-  border-radius: 50px;
+.dropdown-item {
+  color: #CBB279;
 }
 
-.container {
-  position: relative;
-  padding: 20px 50px;
-}
-
-.input {
-  width: 200px;
-  background: transparent;
-  padding: 6px;
-  border-radius: 50px;
-  outline: none;
-  margin-top: 10px;
-}
-
-.close-btn {
-  position: absolute;
-  margin-top: 150px;
-  right: 150px;
-}
-
-.border {
-  background-color: transparent;
+button {
+  background-color: #537188;
+  color: white;
   border-radius: 20px;
-  box-shadow: 2px 2px 4px #000000;
-  position: sticky;
-  top: 0;
-  display: flex;
-  padding: 1vw;
-  justify-content: space-between;
-  background: transparent;
-  backdrop-filter: blur(5px);
-  border: 1px solid #cccccc;
+}
+
+.btn {
+  color: white;
 }
 
 footer {
@@ -83,6 +56,8 @@ footer {
 
 .list-font {
   font-weight: lighter;
+  color: white;
+  text-decoration: none;
   color: white;
 }
 
