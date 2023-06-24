@@ -45,7 +45,8 @@
               <a class="nav-link disabled" href="blogs.html">Blogs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact-us.html">Contact Us</a>
+              <button class="nav-link btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" style="color: #000000;">Contact Us</button>
+              <!-- <a class="nav-link" href="contact-us.html"></a> -->
             </li>
           </ul>
           <div class="d-flex" role="search">
@@ -81,6 +82,88 @@
         <br/>
       </div>
       <hr>
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">CONTACT FORM</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="container">
+            <br/>
+            <p class="h2">Contact Us</p>
+            <p>If you would like more information about Lantern Institute Engineering & Services, 
+              please call us at <b>(+91) 994-026-8537</b>, or 
+              email us at <b>lanternengineeringservices@gmail.com</b> or complete 
+              the following form and one of our representatives will contact you shortly. 
+              If you want to visit us personally, check our <a href="#locations" style="color: #537188;"><b>location</b></a> down below.</p>
+          </div>
+          <form action="#" class="container"> 
+      
+            <div class="form-floating mb-2">
+              <input type="text" class="form-control" name="first-name" id="first-name" placeholder="John" required>
+              <label for="first-name">First Name*</label>
+            </div>
+        
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" name="middle-name" id="middle-name" placeholder="Mary">
+              <label for="middle-name">Middle Name</label>
+            </div>
+        
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" name="last-name" id="last-name" placeholder="Doe" required>
+              <label for="last-name">Last Name*</label>
+            </div>
+      
+            <div class="mb-3">
+              <label for="birthday">Birthday <span style="color:gray">(optional)</span></label>
+              <br/>
+              <input type="date" name="birthday" id="birthday">
+            </div>
+      
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" name="email-address" id="email-address" placeholder="hello@example.com" required/>
+              <label for="email-address">Email*</label>
+            </div>
+      
+            <select class="form-select" aria-label="Default select example" required>
+              <option selected disabled>Select Services*</option>
+              <option value="1">Training Classes</option>
+              <option value="2">Workshops</option>
+              <option value="3">Project Training</option>
+              <option value="4">Private Freelance Projects</option>
+              <option value="5">Product Development</option>
+              <option value="6">Electronics Repair and Design</option>
+              <option value="7">Consultation</option>
+              <option value="8">Engineering Tools Training</option>
+            </select>
+      
+            <br/>
+            <div class="mb-3">
+              <label for="sample-text-area">Message <span style="color:gray">(optional)</span></label>
+              <textarea class="form-control" name="sample-text-area" id="sample-text-area" cols="30" rows="5"></textarea>
+            </div>
+      
+            <a href="#" class="btn btn-primary">SUBMIT</a>
+      
+            <br/>
+            <div id="locations">
+              <br/>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.620077603448!2d80.19454027504021!3d12.996134514339927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526750f49bdb05%3A0x28b170bf3d953989!2sPalayathan%20St%2C%20Collectors%20Nagar%2C%20Alandur%2C%20Ramapuram%2C%20Tamil%20Nadu%20600016%2C%20India!5e0!3m2!1sen!2sph!4v1687536926783!5m2!1sen!2sph" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+      
+            <br/>
+            <p class="h6">WANT FASTER RESPONSE?
+              <br/>CHECK OUR PAGES DOWN BELOW.
+            </p>
+            <div class="icons">
+              <a href="https://linktr.ee/lantern_ies" target="_blank"><i class="fa-solid fa-link fa-lg" style="color: black;"></i></a>
+              <a href="https://www.linkedin.com/company/lantern-institute-and-engineering-services/" target="_blank"><img src="https://cdn-eddmj.nitrocdn.com/MIeXIATMzfsugBUjMYYAsttxWKKqFAQO/assets/images/optimized/rev-736fd3a/wp-content/uploads/ico_in.png" alt="linkedin"></a>
+              <a href="https://www.facebook.com/profile.php?id=100093796509952" target="_blank"><img src="https://cdn-eddmj.nitrocdn.com/MIeXIATMzfsugBUjMYYAsttxWKKqFAQO/assets/images/optimized/rev-736fd3a/wp-content/uploads/ico_fb.png" alt="facebook"></a>
+              <a href="https://twitter.com/lantern_ies" target="_blank"><img src="https://cdn-eddmj.nitrocdn.com/MIeXIATMzfsugBUjMYYAsttxWKKqFAQO/assets/images/optimized/rev-736fd3a/wp-content/uploads/ico_tw.jpg" alt="twitter"></a>
+            </div>
+        </div>
+      </div>
 
       <br/>
       <div class="card text-bg-dark">
