@@ -34,14 +34,17 @@ header {
   color: #CBB279;
   padding: 15px;
   letter-spacing: 1px;
+  text-shadow: 1px 1px 0px #000000;
 }
 
 .nav-link:hover {
-  color: black;
+  color: #537188;
+  text-shadow: 1px 1px 1px #000000;
 }
 
 .dropdown-item {
   color: #CBB279;
+  text-shadow: 1px 1px 1px #000000;
 }
 
 .dropdown-item:hover {
