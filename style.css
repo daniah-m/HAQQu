@@ -48,6 +48,15 @@ header {
   color: black;
 }
 
+#list-example {
+  background-color: #CBB279;
+}
+
+#list-example:hover {
+  background-color: #537188;
+  color: white;
+}
+
 button {
   background-color: #537188;
   color: white;
