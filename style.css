@@ -15,6 +15,7 @@ header {
   background-color: white;
   font-family: 'Roboto';
   font-weight: bolder;
+  display: inline;
 }
 
 #logo {
